@@ -17,7 +17,9 @@ namespace Read_Excel_File
             var xmlObj = new OpenXmlLibToReadXlsxFile();
 
 /// Required path of Excel file
-            DataTable table = xmlObj.ReadExcelFile(@"C:\Users\Administrator\Downloads\Sample.xlsx"); 
+            DataTable table = xmlObj.ReadExcelFile(@"C:\Users\Administrator\Downloads\Sample-2.xlsx");
+           // ConvertDocToHTML.ConvertTOhtml();
+            ConvertToHTMLWithImages.ConVertDOcWithImages();
         }
     }
 }

@@ -74,8 +74,8 @@ namespace Read_Excel_File
                         }
                         try
                         {
-                            if (string.Compare(dt.Columns[0].ColumnName, "Name", true) == 0 && string.Compare(dt.Columns[1].ColumnName.Trim(), "Class", true) == 0 && string.Compare(dt.Columns[2].ColumnName, "Roll Number", true) == 0)
-                            {
+                            //if (string.Compare(dt.Columns[0].ColumnName, "Name", true) == 0 && string.Compare(dt.Columns[1].ColumnName.Trim(), "Class", true) == 0 && string.Compare(dt.Columns[2].ColumnName, "Roll Number", true) == 0)
+                            //{
                                 // Add rows into DataTable 
                                 foreach (Row row in rowcollection)
                                 {
@@ -111,15 +111,15 @@ namespace Read_Excel_File
                                 }
                                 dt.Rows.RemoveAt(0);
                                 break;
-                            }
+                            //}
 
 
 
 
-                            else
-                            {
-                                dt.Columns.Clear();
-                            }
+                            //else
+                            //{
+                            //    dt.Columns.Clear();
+                            //}
 
 
                         }
